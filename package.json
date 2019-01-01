@@ -1,5 +1,5 @@
 {
-  "name": "glsl-token-descope",
+  "name": "@andrewray/glsl-token-descope",
   "version": "1.0.2",
   "description": "\"Descope\" an array of GLSL tokens such that they can be safely inlined alongside within another shader without causing any global variable conflicts.",
   "main": "index.js",
