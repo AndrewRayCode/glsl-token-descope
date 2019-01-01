@@ -4,7 +4,7 @@ function glslTokenDescope(tokens, rename) {
   require('glsl-token-depth')(tokens)
   require('glsl-token-scope')(tokens)
   require('glsl-token-properties')(tokens)
-  require('glsl-token-assignments')(tokens)
+  require('@andrewray/glsl-token-assignments')(tokens)
 
   var scope   = getScope(tokens)
   var renamer = rename || defaultRenamer()
